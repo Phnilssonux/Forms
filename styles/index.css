@@ -1,0 +1,36 @@
+body {
+    background-color: beige;
+}
+p {
+    font-family:'Times New Roman', Times, serif;
+    margin-bottom: 0;
+}
+
+main {
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    display: flex;
+    text-align: center;
+    border-radius: 4px;
+    margin-top: 18px;
+    width: 100%;
+    cursor: pointer;
+
+}
+
+.btn:hover {
+    background-color: rgb(63, 61, 61);
+}
+
+.btn:active {
+    background-color: bisque;
+}
+
+input {
+    border-radius: 2px;
+    cursor: pointer;
+}
